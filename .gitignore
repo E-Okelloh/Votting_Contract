@@ -1,7 +1,32 @@
+# Anchor / Rust build artifacts
 .anchor
-.DS_Store
 target
 **/*.rs.bk
-node_modules
 test-ledger
+
+# Solana test ledger
+.anchor/test-ledger
+
+# Node
+node_modules
 .yarn
+
+# Next.js
+app/.next
+app/node_modules
+
+# Environment variables (may contain secrets)
+.env
+.env.local
+.env*.local
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Claude Code internal files
+.claude
+
+# Logs
+*.log
+validator*.log
